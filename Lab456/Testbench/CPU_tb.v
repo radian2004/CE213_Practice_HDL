@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module datapath_tb;
+module CPU_tb;
 
    // Clock and reset signals
    reg clk;
@@ -52,7 +52,7 @@ module datapath_tb;
         #(T); // Wait one more clock cycle for PC to update to 0 and fetch first instruction
 
         $display("--- Initial State After Reset ---");
-        $display("Time | PC       | Instruction | RegWrite | MemRead | MemWrite | ALU Result | Mem Addr | Mem Write Data | Rd1 Addr | Rd2 Addr | Read Data1 | Read Data2 | Reg Write Data");
+        $display("Time |    PC    | Instruction | RegWrite | MemRead | MemWrite | ALU Result | Mem Addr | Mem Write Data | Rd1 Addr | Rd2 Addr | Read Data1 | Read Data2 | Reg Write Data");
         $display("--------------------------------------------------------------------------------------------------------------------------------------------------------------------");
         $display("%4d | %8h | %11h | %8b | %7b | %8b | %10h | %8h | %14h | %8d | %8d | %10h | %10h | %14h",
                  $time, current_pc, current_instruction, reg_write, mem_read, mem_write, alu_result, mem_address, mem_write_data,
@@ -97,14 +97,13 @@ module datapath_tb;
         dut.rf.registers[22] = 32'h0000008C; // $s6 = 140
         dut.rf.registers[23] = 32'h00000096; // $s7 = 150
 
-
-
         $display("--- Executing Instructions ---");
 
         // Execute 40 instructions (10 add + 10 lw + 10 sw + 10 lw for verify)
         repeat (100)
           begin
              @(posedge clk);
+             $display(" ");
              $display("Time | PC       | Instruction | RegWrite | MemRead | MemWrite | ALU Result | Mem Addr | Mem Write Data | Rd1 Addr | Rd2 Addr | Read Data1 | Read Data2 | Reg Write Data");
              $display("--------------------------------------------------------------------------------------------------------------------------------------------------------------------");
              $display("%4d | %8h | %11h | %8b | %7b | %8b | %10h | %8h | %14h | %8d | %8d | %10h | %10h | %14h",
@@ -117,7 +116,7 @@ module datapath_tb;
                       dut.read_data_1, dut.read_data_2);
              // Optional: Display contents of key registers after each instruction
              // Access the internal register array of the register_file module
-             $display("       | $t0 (R8): %h, $t1 (R9): %h, $t2 (R10): %h, $t3 (R11): %h",
+             $display("       | $t0 (R8):  %h, $t1 (R9):  %h, $t2 (R10):  %h, $t3  (R11): %h",
                       dut.rf.registers[8], dut.rf.registers[9], dut.rf.registers[10], dut.rf.registers[11]);
              $display("       | $t4 (R12): %h, $t5 (R13): %h, $t6 (R14): %h, $t7 (R15): %h",
                       dut.rf.registers[12], dut.rf.registers[13], dut.rf.registers[14], dut.rf.registers[15]);
