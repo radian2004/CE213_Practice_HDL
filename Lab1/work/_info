@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\STUDY\HDL\Theory\Sub_4bit
+vCLA_3A
+Z1 !s100 iM<k[Sb7do7dIHCzodnii0
+Z2 I<XCIQO1>z91hQ2`B=[=oD2
+Z3 VdmCkIRF;O6eVe7C68_VEh3
+Z4 dD:\STUDY\HDL\Practice\Lab1
+Z5 w1741742017
+Z6 8D:/STUDY/HDL/Practice/Lab1/FA_3b.v
+Z7 FD:/STUDY/HDL/Practice/Lab1/FA_3b.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab1/FA_3b.v|
+Z10 o-work work -O0
+Z11 n@c@l@a_3@a
+!i10b 1
+!s85 0
+Z12 !s108 1741743554.081000
+Z13 !s107 D:/STUDY/HDL/Practice/Lab1/FA_3b.v|
+!s101 -O0
+vCLA_M
+!i10b 1
+Z14 !s100 ggM[XS=^;1Yf:h^eiJOcQ2
+Z15 IjTdbzceSlPWj_?8GJfXZ32
+Z16 VRLKb9F=S0PL8XH>Y??U`52
+R4
+Z17 w1741743551
+Z18 8D:/STUDY/HDL/Practice/Lab1/testbench.v
+Z19 FD:/STUDY/HDL/Practice/Lab1/testbench.v
+L0 1
+R8
+r1
+!s85 0
+31
+Z20 !s108 1741743554.125000
+Z21 !s107 D:/STUDY/HDL/Practice/Lab1/testbench.v|
+Z22 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab1/testbench.v|
+!s101 -O0
+R10
+Z23 n@c@l@a_@m
+vCLA_testbench
+!i10b 1
+!s100 nVaAPJOi^b8A]Uk96QO6M3
+Icb[9B@3^0F2lW]4mi7^h61
+Z24 VX`j<;O0OzUM1fbWiN>=990
+R4
+R17
+R18
+R19
+L0 10
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z25 n@c@l@a_testbench

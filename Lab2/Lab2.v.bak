@@ -1,0 +1,61 @@
+module D_FF (Q,Qn,clk,D,pr,clr); input wire pr;
+input clk; input D; input clr; output Q,Qn;
+
+wire A,S,R,B;
+
+nand na1 (A,pr,B,S); nand na2 (S,clk,A,clr); nand na3 (R,S,clk,B);
+nand na4 (B,R,clr,D);
+
+//output
+nand na5(Q,pr,S,Qn); nand na6(Qn,Q,R,clr);
+
+endmodule
+
+module NextState (Q0,Q1,Q2,D0,D1,D2); input Q0,Q1,Q2;
+output D0,D1,D2;
+
+wire Q0n,Q1n,Q2n; wire t0,t1,t2,t3; wire t4,t5;
+wire t6,t7,t8;
+
+not n0 (Q0n,Q0); not n1 (Q1n,Q1); not n2 (Q2n,Q2);
+
+and a0 (t0,Q2n,Q1,Q0n); and a1 (t1,Q2,Q1n,Q0n); and a2 (t2,Q2,Q1,Q0);
+ 
+or o1 (D0,t0,t1,t2);
+
+and a3 (t4, Q2n,Q0n); and a4 (t5, Q2,Q0);
+or o2 (D1,Q1n,t4,t5);
+
+and a5 (t6, Q1n,Q0n); and a6 (t7, Q1,Q0n); and a7 (t8, Q2n,Q1n); or o3 (D2,t6,t7,t8);
+endmodule
+
+module FSM (Q,clk,en,data_in); input clk;
+input en;
+input [2:0] data_in;
+output [2:0] Q;
+wire [2:0] clr,pr;
+wire [2:0] D;
+wire [2:0] Qn;
+wire data_in1n,data_in2n,en_n,data_in0n;
+//call 3 Dff
+D_FF d2(.Q(Q[2]),.Qn(Qn[2]),.clk(clk),.D(D[2]),.pr(pr[2]),.clr(clr[2]));
+D_FF d1(.Q(Q[1]),.Qn(Qn[1]),.clk(clk),.D(D[1]),.pr(pr[1]),.clr(clr[1]));
+D_FF d0(.Q(Q[0]),.Qn(Qn[0]),.clk(clk),.D(D[0]),.pr(pr[0]),.clr(clr[0]));
+
+NextState NS (.Q0(Q[0]),.Q1(Q[1]),.Q2(Q[2]),.D0(D[0]),.D1(D[1]),.D2(D[2]));
+
+//enable not
+not(en_n,en); not(data_in2n,data_in[2]); not(data_in1n,data_in[1]); not(data_in0n,data_in[0]);
+
+ 
+//prs
+ 
+
+or(pr[2],data_in2n,en_n); or(pr[1],data_in1n,en_n); or(pr[0],data_in0n,en_n);
+ 
+
+//clr
+ 
+or(clr[2],en_n,data_in[2]);
+or(clr[1],en_n,data_in[1]);
+or(clr[0],en_n,data_in[0]); endmodule

@@ -1,0 +1,96 @@
+module D_ff_with_PRe_CLR (Q, Qn, CLK, D, PR, CLR); 
+	input PR;
+	input CLK; 
+	input D; 
+	input CLR; 
+	output Q,Qn; 
+
+	wire A,S,R,B;
+
+	nand na1 (A, PR, B, S); 
+	nand na2 (S, CLK, A, CLR); 
+	nand na3 (R, S, CLK, B);
+	nand na4 (B, R, CLR, D);
+
+//output
+	nand na5(Q, PR, S, Qn); 
+	nand na6(Qn, Q, R, CLR);
+endmodule
+
+module NextState (Q0, Q1, Q2, D0, D1, D2); 
+	input Q0, Q1, Q2;
+	output D0, D1, D2;
+
+	wire Q0n, Q1n, Q2n; 
+	wire t0, t1, t2, t3; 
+	wire t4, t5;
+	wire t6, t7, t8;
+
+	not n0 (Q0n, Q0); 
+	not n1 (Q1n, Q1); 
+	not n2 (Q2n, Q2);
+
+//D0 = (2,4,7)
+	and a0 (t0, Q2n, Q1, Q0n); 
+	and a1 (t1, Q2, Q1n, Q0n); 
+	and a2 (t2, Q2, Q1, Q0);
+ 
+	or o1 (D0, t0, t1, t2);
+	
+//D1 = (0,1,2,4,5,7)
+	and a3 (t4, Q2n, Q0n); 
+	and a4 (t5, Q2, Q0);
+	or o2 (D1, Q1n, t4, t5);
+
+//D2 = (0,1,2,4,6)
+	and a5 (t6, Q2n, Q1n); 
+	or o3 (D2, t6, Q0n);
+	
+endmodule
+
+module Lab2 (Q,CLK,Enable,Data_In); 
+	input CLK;
+	input Enable;
+	input [2:0] Data_In;
+	output [2:0] Q;
+	wire [2:0] CLR,PR;
+	wire [2:0] D;
+	wire [2:0] Qn;
+	wire Data_In1n, Data_In2n, Enable_n, Data_In0n;
+	
+//call 3 Dff
+	D_ff_with_PRe_CLR d2(.Q(Q[2]),.Qn(Qn[2]),.CLK(CLK),.D(D[2]),.PR(PR[2]),.CLR(CLR[2]));
+	D_ff_with_PRe_CLR d1(.Q(Q[1]),.Qn(Qn[1]),.CLK(CLK),.D(D[1]),.PR(PR[1]),.CLR(CLR[1]));
+	D_ff_with_PRe_CLR d0(.Q(Q[0]),.Qn(Qn[0]),.CLK(CLK),.D(D[0]),.PR(PR[0]),.CLR(CLR[0]));
+	
+	NextState NS (.Q0(Q[0]),.Q1(Q[1]),.Q2(Q[2]),.D0(D[0]),.D1(D[1]),.D2(D[2]));
+
+//Enableable not
+	not(Enable_n, Enable); 
+	not(Data_In2n, Data_In[2]); 
+	not(Data_In1n, Data_In[1]); 
+	not(Data_In0n, Data_In[0]);
+ 
+//PRs
+ 
+	or(PR[2],Data_In2n, Enable_n); 
+	or(PR[1],Data_In1n, Enable_n); 
+	or(PR[0],Data_In0n, Enable_n);
+ 
+//CLR
+ 
+	or(CLR[2],Enable_n, Data_In[2]);
+	or(CLR[1],Enable_n, Data_In[1]);
+	or(CLR[0],Enable_n, Data_In[0]); 
+endmodule
+
+
+//PRs 
+	or o4 (PR[2],Data_In2n, Enable_n); 
+	or o5 (PR[1],Data_In1n, Enable_n); 
+	or o6 (PR[0],Data_In0n, Enable_n); 
+
+//CLR
+ 	or o7 (CLR[2],Data_In2, Enable_n); 
+	or o8 (CLR[1],Data_In1, Enable_n); 
+	or o9 (CLR[0],Data_In0, Enable_n);
