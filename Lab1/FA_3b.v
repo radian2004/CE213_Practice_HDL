@@ -1,0 +1,40 @@
+module CLA_3A
+(
+    input [2:0] A,
+    input [2:0] B,
+    input Cin, 
+    output [3:0] S
+);
+    wire Cout;
+    wire [2:0] G, P;
+    wire [1:0] C;
+    wire [5:0] W;
+
+    and a0(G[0], A[0], B[0]);
+    xor x0(P[0], A[0], B[0]);
+    and a1(G[1], A[1], B[1]);
+    xor x1(P[1], A[1], B[1]);
+    and a2(G[2], A[2], B[2]);
+    xor x2(P[2], A[2], B[2]);
+
+    and cx0(W[0], P[0], Cin);
+    or cin1(C[0], G[0], W[0]);
+
+    and cx1(W[1], P[1], C[0]);
+    or cin2(C[1], G[1], W[1]);
+
+    and cx2(W[2], P[2], C[1]);
+    or cin3(Cout, G[2], W[2]);
+
+    or pc0(W[3], P[0], G[0]);
+    xor s0(S[0], P[0], Cin);
+    or pc1(W[4], P[1], G[1]);
+    xor s1(S[1], P[1], C[0]);
+    or  pc2(W[5], P[2], G[2]);
+    xor s2 (S[2], P[2], C[1]);
+    and s3(S[3], Cout, 1);
+endmodule
+
+
+
+

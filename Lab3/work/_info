@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\STUDY\HDL\Theory\Counter_0_99
+vLab3_Mealy
+Z1 Ij@DL6=8L^Fc@S>EUdIDHc3
+Z2 VMLnNmM?[:zhJ=:7G]aUX20
+Z3 dD:\STUDY\HDL\Practice\Lab3
+Z4 w1744161509
+Z5 8D:/STUDY/HDL/Practice/Lab3/Lab3_Mealy.v
+Z6 FD:/STUDY/HDL/Practice/Lab3/Lab3_Mealy.v
+L0 2
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@lab3_@mealy
+!i10b 1
+Z10 !s100 @C^KVl7_?1kZN=>7E;SW^1
+!s85 0
+Z11 !s108 1744161984.438000
+Z12 !s107 D:/STUDY/HDL/Practice/Lab3/Lab3_Mealy.v|
+Z13 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab3/Lab3_Mealy.v|
+!s101 -O0
+vLab3_Moore
+Z14 !s100 oOV`PAfdGB;dU?0aHf[?^3
+Z15 ITZR1_bSF19jaokMDD>3XT1
+Z16 V5@PNB3M`<d9LSKE^L8EHi0
+R3
+Z17 w1744160997
+Z18 8D:\STUDY\HDL\Practice\Lab3\Lab3_Moore.v
+Z19 FD:\STUDY\HDL\Practice\Lab3\Lab3_Moore.v
+L0 3
+R7
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|D:\STUDY\HDL\Practice\Lab3\Lab3_Moore.v|
+R8
+Z21 n@lab3_@moore
+Z22 !s108 1744161984.337000
+Z23 !s107 D:\STUDY\HDL\Practice\Lab3\Lab3_Moore.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_Lab3_Mealy
+!i10b 1
+!s100 5j_^Ib4F3ISko8jdTLSen3
+IOVVD`]94QbV<HYF:<EClM0
+Vj0zl<jIkGlHR:iULYiiX31
+R3
+w1744161966
+8D:/STUDY/HDL/Practice/Lab3/Lab3_Mealy_tb.v
+FD:/STUDY/HDL/Practice/Lab3/Lab3_Mealy_tb.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1744161984.486000
+!s107 D:/STUDY/HDL/Practice/Lab3/Lab3_Mealy_tb.v|
+!s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab3/Lab3_Mealy_tb.v|
+!s101 -O0
+R8
+ntb_@lab3_@mealy
+vtb_Lab3_Moore
+Z24 IjD4n]YRO;g97ALfGP`7lo2
+Z25 V5z?MlhUI26hI:Y2zKBPVK3
+R3
+Z26 w1744161730
+Z27 8D:/STUDY/HDL/Practice/Lab3/Lab3_Moore_tb.v
+Z28 FD:/STUDY/HDL/Practice/Lab3/Lab3_Moore_tb.v
+L0 3
+R7
+r1
+31
+R8
+Z29 ntb_@lab3_@moore
+Z30 !s100 Qc[oC0<;:GmV3WhlzEoXk0
+Z31 !s108 1744161984.391000
+Z32 !s107 D:/STUDY/HDL/Practice/Lab3/Lab3_Moore_tb.v|
+Z33 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab3/Lab3_Moore_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0

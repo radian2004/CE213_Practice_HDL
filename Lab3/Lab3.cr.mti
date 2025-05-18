@@ -1,0 +1,29 @@
+D:/STUDY/HDL/Practice/Lab3/Lab3_Mealy.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab3/Lab3_Mealy.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Lab3_Mealy
+
+Top level modules:
+	Lab3_Mealy
+
+} {} {}} D:/STUDY/HDL/Practice/Lab3/Lab3_Mealy_tb.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab3/Lab3_Mealy_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_Lab3_Mealy
+
+Top level modules:
+	tb_Lab3_Mealy
+
+} {} {}} D:/STUDY/HDL/Practice/Lab3/Lab3_Moore.v {1 {vlog -work work {D:\STUDY\HDL\Practice\Lab3\Lab3_Moore.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Lab3_Moore
+
+Top level modules:
+	Lab3_Moore
+
+} {} {}} D:/STUDY/HDL/Practice/Lab3/Lab3_Moore_tb.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab3/Lab3_Moore_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_Lab3_Moore
+
+Top level modules:
+	tb_Lab3_Moore
+
+} {} {}}
