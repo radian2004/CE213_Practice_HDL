@@ -1,16 +1,9 @@
-D:/STUDY/HDL/Practice/Lab456/RTL/sign_extend.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab456/RTL/sign_extend.v
+D:/STUDY/HDL/Practice/Lab456/RTL/control_unit.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab456/RTL/control_unit.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module sign_extend
+-- Compiling module control_unit
 
 Top level modules:
-	sign_extend
-
-} {} {}} D:/STUDY/HDL/Practice/Lab456/RTL/register_file.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab456/RTL/register_file.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module register_file
-
-Top level modules:
-	register_file
+	control_unit
 
 } {} {}} D:/STUDY/HDL/Practice/Lab456/RTL/CPU.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab456/RTL/CPU.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -19,26 +12,19 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	CPU
 
-} {} {}} D:/STUDY/HDL/Practice/Lab456/RTL/control_unit.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab456/RTL/control_unit.v
+} {} {}} D:/STUDY/HDL/Practice/Lab456/RTL/register_file.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab456/RTL/register_file.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module control_unit
+-- Compiling module register_file
 
 Top level modules:
-	control_unit
+	register_file
 
-} {} {}} D:/STUDY/HDL/Practice/Lab456/RTL/instruction_memory.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab456/RTL/instruction_memory.v
+} {} {}} D:/STUDY/HDL/Practice/Lab456/RTL/sign_extend.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab456/RTL/sign_extend.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module instruction_memory
+-- Compiling module sign_extend
 
 Top level modules:
-	instruction_memory
-
-} {} {}} D:/STUDY/HDL/Practice/Lab456/RTL/data_memory.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab456/RTL/data_memory.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module data_memory
-
-Top level modules:
-	data_memory
+	sign_extend
 
 } {} {}} D:/STUDY/HDL/Practice/Lab456/RTL/alu.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab456/RTL/alu.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -47,6 +33,20 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	alu
 
+} {} {}} D:/STUDY/HDL/Practice/Lab456/RTL/data_memory.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab456/RTL/data_memory.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module data_memory
+
+Top level modules:
+	data_memory
+
+} {} {}} D:/STUDY/HDL/Practice/Lab456/RTL/instruction_memory.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab456/RTL/instruction_memory.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module instruction_memory
+
+Top level modules:
+	instruction_memory
+
 } {} {}} D:/STUDY/HDL/Practice/Lab456/Testbench/CPU_tb.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab456/Testbench/CPU_tb.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module CPU_tb
@@ -54,18 +54,18 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	CPU_tb
 
-} {} {}} D:/STUDY/HDL/Practice/Lab456/RTL/program_counter.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab456/RTL/program_counter.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module program_counter
-
-Top level modules:
-	program_counter
-
 } {} {}} D:/STUDY/HDL/Practice/Lab456/RTL/datapath.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab456/RTL/datapath.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Datapath
 
 Top level modules:
 	Datapath
+
+} {} {}} D:/STUDY/HDL/Practice/Lab456/RTL/program_counter.v {1 {vlog -work work D:/STUDY/HDL/Practice/Lab456/RTL/program_counter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module program_counter
+
+Top level modules:
+	program_counter
 
 } {} {}}

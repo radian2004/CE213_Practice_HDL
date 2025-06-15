@@ -4,40 +4,40 @@ K3
 cModel Technology
 Z0 dD:\STUDY\HDL\Practice\Lab456_r\work
 valu
-Z1 IhS;1BG]N]PQ^kiAznofL41
-Z2 V9_>d?QTkV@W>9RgNFE1H<1
-Z3 dD:\STUDY\HDL\Practice\Lab456
-Z4 w1747231480
-Z5 8D:/STUDY/HDL/Practice/Lab456/RTL/alu.v
-Z6 FD:/STUDY/HDL/Practice/Lab456/RTL/alu.v
+Z1 !s100 _W^AASh2h5]cP1:=@HnE?1
+Z2 IhS;1BG]N]PQ^kiAznofL41
+Z3 V9_>d?QTkV@W>9RgNFE1H<1
+Z4 dD:\STUDY\HDL\Practice\Lab456
+Z5 w1747231480
+Z6 8D:/STUDY/HDL/Practice/Lab456/RTL/alu.v
+Z7 FD:/STUDY/HDL/Practice/Lab456/RTL/alu.v
 L0 1
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
-Z9 !s100 _W^AASh2h5]cP1:=@HnE?1
-Z10 !s108 1747566643.781000
-Z11 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/alu.v|
-Z12 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/alu.v|
+Z9 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/alu.v|
+Z10 o-work work -O0
+Z11 !s108 1747618819.213000
+Z12 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/alu.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vcontrol_unit
-Z13 IH7mO==nIE]:=UD`48bJRT1
-Z14 VhDJAcmC]i_lVc[Jm_<=hD1
-R3
+Z13 !s100 J_EEcSCBGf:CX`PzoF5aB2
+Z14 IH7mO==nIE]:=UD`48bJRT1
+Z15 VhDJAcmC]i_lVc[Jm_<=hD1
 R4
-Z15 8D:/STUDY/HDL/Practice/Lab456/RTL/control_unit.v
-Z16 FD:/STUDY/HDL/Practice/Lab456/RTL/control_unit.v
+R5
+Z16 8D:/STUDY/HDL/Practice/Lab456/RTL/control_unit.v
+Z17 FD:/STUDY/HDL/Practice/Lab456/RTL/control_unit.v
 L0 2
-R7
+R8
 r1
 31
-R8
-Z17 !s100 J_EEcSCBGf:CX`PzoF5aB2
-Z18 !s108 1747566643.827000
-Z19 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/control_unit.v|
-Z20 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/control_unit.v|
+Z18 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/control_unit.v|
+R10
+Z19 !s108 1747618819.260000
+Z20 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/control_unit.v|
 !i10b 1
 !s85 0
 !s101 -O0
@@ -45,18 +45,18 @@ vCPU
 Z21 !s100 gKf:gK@7^ZE@946OP_m6K0
 Z22 IE_::OEhgH54ECn6lV4lEe0
 Z23 VAWkB>YL>oNKK6>HY7NaBd0
-R3
+R4
 Z24 w1747566246
 Z25 8D:/STUDY/HDL/Practice/Lab456/RTL/CPU.v
 Z26 FD:/STUDY/HDL/Practice/Lab456/RTL/CPU.v
 L0 1
-R7
+R8
 r1
 31
 Z27 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/CPU.v|
-R8
+R10
 Z28 n@c@p@u
-Z29 !s108 1747566643.870000
+Z29 !s108 1747618819.305000
 Z30 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/CPU.v|
 !i10b 1
 !s85 0
@@ -66,37 +66,37 @@ vCPU_tb
 Z31 !s100 5OzZ<DmPFeRLQXiMMfUC?1
 Z32 IcBn[]dfAzcEz[ZiHdFmb;0
 Z33 VFL2nOJV_aKgac;l290N3I0
-R3
-Z34 w1747566428
+R4
+Z34 w1747616433
 Z35 8D:/STUDY/HDL/Practice/Lab456/Testbench/CPU_tb.v
 Z36 FD:/STUDY/HDL/Practice/Lab456/Testbench/CPU_tb.v
 L0 3
-R7
+R8
 r1
 !s85 0
 31
-!s108 1747566644.191000
+!s108 1747618819.628000
 !s107 D:/STUDY/HDL/Practice/Lab456/Testbench/CPU_tb.v|
 Z37 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/Testbench/CPU_tb.v|
 !s101 -O0
-R8
+R10
 Z38 n@c@p@u_tb
 vdata_memory
-Z39 I9LhPE<Bek6W;=kk^hM=Kf2
-Z40 V59oP7Zb_>7Fc_;=>9eeUj0
-R3
+Z39 !s100 `RVHPU;?oWf1]:h2GRIZZ3
+Z40 I9LhPE<Bek6W;=kk^hM=Kf2
+Z41 V59oP7Zb_>7Fc_;=>9eeUj0
 R4
-Z41 8D:/STUDY/HDL/Practice/Lab456/RTL/data_memory.v
-Z42 FD:/STUDY/HDL/Practice/Lab456/RTL/data_memory.v
+R5
+Z42 8D:/STUDY/HDL/Practice/Lab456/RTL/data_memory.v
+Z43 FD:/STUDY/HDL/Practice/Lab456/RTL/data_memory.v
 L0 2
-R7
+R8
 r1
 31
-R8
-Z43 !s100 `RVHPU;?oWf1]:h2GRIZZ3
-Z44 !s108 1747566643.916000
-Z45 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/data_memory.v|
-Z46 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/data_memory.v|
+Z44 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/data_memory.v|
+R10
+Z45 !s108 1747618819.352000
+Z46 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/data_memory.v|
 !i10b 1
 !s85 0
 !s101 -O0
@@ -104,16 +104,16 @@ vdatapath
 Z47 !s100 =?g2f;d_1j@fIzmTHdATT1
 Z48 I9_E9V]GkXPiURa^ED6b=G2
 Z49 VVi^AQPHoP4QDDGLA>@MXP2
-R3
 R4
+R5
 Z50 8D:/STUDY/HDL/Practice/Lab456_r/rtl/datapath.v
 Z51 FD:/STUDY/HDL/Practice/Lab456_r/rtl/datapath.v
 L0 5
-R7
+R8
 r1
 31
 Z52 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456_r/rtl/datapath.v|
-R8
+R10
 Z53 !s108 1747464694.323000
 Z54 !s107 D:/STUDY/HDL/Practice/Lab456_r/rtl/datapath.v|
 !i10b 1
@@ -123,114 +123,114 @@ vDatapath
 Z55 !s100 8kiNd7ToK7hS;^hH2?PPd3
 Z56 I<c^h`BZK=0:6VfO4I5JaN3
 Z57 VP9Jf]Y[H]^^FICIY4N>O00
-R3
-R24
-Z58 8D:/STUDY/HDL/Practice/Lab456/RTL/datapath.v
-Z59 FD:/STUDY/HDL/Practice/Lab456/RTL/datapath.v
+R4
+Z58 w1747615751
+Z59 8D:/STUDY/HDL/Practice/Lab456/RTL/datapath.v
+Z60 FD:/STUDY/HDL/Practice/Lab456/RTL/datapath.v
 L0 1
-R7
+R8
 r1
 31
-Z60 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/datapath.v|
-R8
-Z61 n@datapath
-Z62 !s108 1747566643.962000
-Z63 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/datapath.v|
+Z61 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/datapath.v|
+R10
+Z62 n@datapath
+Z63 !s108 1747618819.397000
+Z64 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/datapath.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vdatapath_tb
-Z64 !s100 RUl3QECR1KAH]l3dZTTi_0
-Z65 IF4lW9MJe1:3fH:X65kJ7;2
-Z66 VL76M^2D?@;P=jm9F1:T1]2
-R3
-Z67 w1747564782
+Z65 !s100 RUl3QECR1KAH]l3dZTTi_0
+Z66 IF4lW9MJe1:3fH:X65kJ7;2
+Z67 VL76M^2D?@;P=jm9F1:T1]2
+R4
+Z68 w1747564782
 R35
 R36
 L0 3
-R7
+R8
 r1
 31
 R37
-R8
-Z68 !s108 1747565512.572000
-Z69 !s107 D:/STUDY/HDL/Practice/Lab456/Testbench/CPU_tb.v|
+R10
+Z69 !s108 1747565512.572000
+Z70 !s107 D:/STUDY/HDL/Practice/Lab456/Testbench/CPU_tb.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vinstruction_memory
-Z70 IFj3CJ6A5FGXT=dYHCEE3Y1
-Z71 VzZHP4;XRAdC:V91j=@c`91
-R3
-Z72 w1747554543
-Z73 8D:/STUDY/HDL/Practice/Lab456/RTL/instruction_memory.v
-Z74 FD:/STUDY/HDL/Practice/Lab456/RTL/instruction_memory.v
+Z71 !s100 Df;h0j1NHKICgXmH84^Bo0
+Z72 IFj3CJ6A5FGXT=dYHCEE3Y1
+Z73 VzZHP4;XRAdC:V91j=@c`91
+R4
+Z74 w1747554543
+Z75 8D:/STUDY/HDL/Practice/Lab456/RTL/instruction_memory.v
+Z76 FD:/STUDY/HDL/Practice/Lab456/RTL/instruction_memory.v
 L0 1
-R7
+R8
 r1
 31
-R8
-Z75 !s100 Df;h0j1NHKICgXmH84^Bo0
-Z76 !s108 1747566644.007000
-Z77 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/instruction_memory.v|
-Z78 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/instruction_memory.v|
+Z77 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/instruction_memory.v|
+R10
+Z78 !s108 1747618819.444000
+Z79 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/instruction_memory.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vprogram_counter
-Z79 IJ^ha8SeLmFXNE8Klah4gD0
-Z80 VVQ65LIc<Hb>FLJP@V2CYT3
-R3
+Z80 !s100 lzQIT=ikSJ<;Dl3JbLMLL0
+Z81 IJ^ha8SeLmFXNE8Klah4gD0
+Z82 VVQ65LIc<Hb>FLJP@V2CYT3
 R4
-Z81 8D:/STUDY/HDL/Practice/Lab456/RTL/program_counter.v
-Z82 FD:/STUDY/HDL/Practice/Lab456/RTL/program_counter.v
+R5
+Z83 8D:/STUDY/HDL/Practice/Lab456/RTL/program_counter.v
+Z84 FD:/STUDY/HDL/Practice/Lab456/RTL/program_counter.v
 L0 6
-R7
+R8
 r1
 31
-R8
-Z83 !s100 lzQIT=ikSJ<;Dl3JbLMLL0
-Z84 !s108 1747566644.054000
-Z85 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/program_counter.v|
-Z86 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/program_counter.v|
+Z85 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/program_counter.v|
+R10
+Z86 !s108 1747618819.492000
+Z87 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/program_counter.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vregister_file
-Z87 I@:eJYUnZA8Y44TZH=IiC>2
-Z88 VFfD9g9dJ9fjMlakDe=G3?3
-R3
+Z88 !s100 WaF@7?G_EJJ<5EZ4B6SI<0
+Z89 I@:eJYUnZA8Y44TZH=IiC>2
+Z90 VFfD9g9dJ9fjMlakDe=G3?3
 R4
-Z89 8D:/STUDY/HDL/Practice/Lab456/RTL/register_file.v
-Z90 FD:/STUDY/HDL/Practice/Lab456/RTL/register_file.v
+R5
+Z91 8D:/STUDY/HDL/Practice/Lab456/RTL/register_file.v
+Z92 FD:/STUDY/HDL/Practice/Lab456/RTL/register_file.v
 L0 1
-R7
+R8
 r1
 31
-R8
-Z91 !s100 WaF@7?G_EJJ<5EZ4B6SI<0
-Z92 !s108 1747566644.100000
-Z93 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/register_file.v|
-Z94 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/register_file.v|
+Z93 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/register_file.v|
+R10
+Z94 !s108 1747618819.537000
+Z95 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/register_file.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vsign_extend
-Z95 IcZUV:o`zFfZO>X2mk`OTI1
-Z96 VQn`kNaA4:clU[HEd=>S^22
-R3
+Z96 !s100 >CJ0En[d;9f]SeSU30BGO0
+Z97 IcZUV:o`zFfZO>X2mk`OTI1
+Z98 VQn`kNaA4:clU[HEd=>S^22
 R4
-Z97 8D:/STUDY/HDL/Practice/Lab456/RTL/sign_extend.v
-Z98 FD:/STUDY/HDL/Practice/Lab456/RTL/sign_extend.v
+R5
+Z99 8D:/STUDY/HDL/Practice/Lab456/RTL/sign_extend.v
+Z100 FD:/STUDY/HDL/Practice/Lab456/RTL/sign_extend.v
 L0 2
-R7
+R8
 r1
 31
-R8
+Z101 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/sign_extend.v|
+R10
 !i10b 1
-Z99 !s100 >CJ0En[d;9f]SeSU30BGO0
 !s85 0
-Z100 !s108 1747566644.146000
-Z101 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/sign_extend.v|
-Z102 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/Practice/Lab456/RTL/sign_extend.v|
+Z102 !s108 1747618819.582000
+Z103 !s107 D:/STUDY/HDL/Practice/Lab456/RTL/sign_extend.v|
 !s101 -O0
