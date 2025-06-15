@@ -1,0 +1,100 @@
+D:/STUDY/HDL/EXAM/elevator_tb.v {1 {vlog -work work D:/STUDY/HDL/EXAM/elevator_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module elevator_tb
+
+Top level modules:
+	elevator_tb
+
+} {} {}} D:/STUDY/HDL/EXAM/alu_tb.v {1 {vlog -work work D:/STUDY/HDL/EXAM/alu_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module alu_tb
+
+Top level modules:
+	alu_tb
+
+} {} {}} D:/STUDY/HDL/EXAM/traffic_light.v {1 {vlog -work work D:/STUDY/HDL/EXAM/traffic_light.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module timer
+-- Compiling module traffic_light
+
+Top level modules:
+	traffic_light
+
+} {} {}} D:/STUDY/HDL/EXAM/stack.v {1 {vlog -work work D:/STUDY/HDL/EXAM/stack.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module stack
+
+Top level modules:
+	stack
+
+} {} {}} D:/STUDY/HDL/EXAM/locker.v {1 {vlog -work work D:/STUDY/HDL/EXAM/locker.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module locker
+
+Top level modules:
+	locker
+
+} {} {}} D:/STUDY/HDL/EXAM/counter.v {1 {vlog -work work D:/STUDY/HDL/EXAM/counter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} D:/STUDY/HDL/EXAM/elevator.v {1 {vlog -work work D:/STUDY/HDL/EXAM/elevator.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module elevator
+
+Top level modules:
+	elevator
+
+} {} {}} D:/STUDY/HDL/EXAM/queue_tb.v {1 {vlog -work work D:/STUDY/HDL/EXAM/queue_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module queue_tb
+
+Top level modules:
+	queue_tb
+
+} {} {}} D:/STUDY/HDL/EXAM/alu.v {1 {vlog -work work D:/STUDY/HDL/EXAM/alu.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} D:/STUDY/HDL/EXAM/traffic_light_tb.v {1 {vlog -work work D:/STUDY/HDL/EXAM/traffic_light_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module traffic_light_tb
+
+Top level modules:
+	traffic_light_tb
+
+} {} {}} D:/STUDY/HDL/EXAM/stack_tb.v {1 {vlog -work work D:/STUDY/HDL/EXAM/stack_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module stack_tb
+
+Top level modules:
+	stack_tb
+
+} {} {}} D:/STUDY/HDL/EXAM/queue.v {1 {vlog -work work D:/STUDY/HDL/EXAM/queue.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module queue
+
+Top level modules:
+	queue
+
+} {} {}} D:/STUDY/HDL/EXAM/counter_tb.v {1 {vlog -work work D:/STUDY/HDL/EXAM/counter_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module counter_tb
+
+Top level modules:
+	counter_tb
+
+} {} {}} D:/STUDY/HDL/EXAM/locker_tb.v {1 {vlog -work work D:/STUDY/HDL/EXAM/locker_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module locker_tb
+
+Top level modules:
+	locker_tb
+
+} {} {}}

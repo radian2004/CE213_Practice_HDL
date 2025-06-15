@@ -1,0 +1,386 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\STUDY\HDL\SHA256new
+valu
+Z1 !s100 lPFWBcU`RMzN0_e<=FeUO0
+Z2 I5E>[E_2aiAcH8@GZENHML1
+Z3 VMST;FW8zUCZZoCf[Vh7F83
+Z4 dD:\STUDY\HDL\EXAM
+Z5 w1749957769
+Z6 8D:/STUDY/HDL/EXAM/alu.v
+Z7 FD:/STUDY/HDL/EXAM/alu.v
+L0 19
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/EXAM/alu.v|
+Z10 o-work work -O0
+Z11 !s108 1749977928.512000
+Z12 !s107 D:/STUDY/HDL/EXAM/alu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valu_tb
+Z13 !s100 5A8_2b]63bml9G8lKhHKd1
+Z14 IOE>>:>c1DjC:Le>XE5O340
+Z15 VL;=kgzZ7GJ2Reg7Z1GkmR2
+R4
+Z16 w1749959237
+Z17 8D:/STUDY/HDL/EXAM/alu_tb.v
+Z18 FD:/STUDY/HDL/EXAM/alu_tb.v
+L0 3
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/EXAM/alu_tb.v|
+R10
+Z20 !s108 1749977928.557000
+Z21 !s107 D:/STUDY/HDL/EXAM/alu_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcounter
+Z22 !s100 gD:<L?6HQXh@T3^BMgJff0
+Z23 I2maG7NhMBNncEReE=fJc^1
+Z24 V;_QL_TLZD5_joDhDbEB8b0
+R4
+Z25 w1749957783
+Z26 8D:/STUDY/HDL/EXAM/counter.v
+Z27 FD:/STUDY/HDL/EXAM/counter.v
+L0 10
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/EXAM/counter.v|
+R10
+Z29 !s108 1749977928.695000
+Z30 !s107 D:/STUDY/HDL/EXAM/counter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcounter_tb
+Z31 !s100 4CZXHj9]ZT7lm;KBYNc5^1
+Z32 I9KNk`LFZ5iI@1?>_mjFjN2
+Z33 VN6X[[7nWg]oz4[ZCKXDXe0
+R4
+Z34 w1749959653
+Z35 8D:/STUDY/HDL/EXAM/counter_tb.v
+Z36 FD:/STUDY/HDL/EXAM/counter_tb.v
+L0 3
+R8
+r1
+31
+Z37 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/EXAM/counter_tb.v|
+R10
+Z38 !s108 1749977928.740000
+Z39 !s107 D:/STUDY/HDL/EXAM/counter_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+velevator
+Z40 !s100 `6e=l@DJB]CR1aJe5f`m;1
+Z41 IN0ZQF8<OE05<@aZJRjQ:63
+Z42 VB1;aMjPK9h<3XCX=aH@Kl0
+R4
+Z43 w1749977067
+Z44 8D:/STUDY/HDL/EXAM/elevator.v
+Z45 FD:/STUDY/HDL/EXAM/elevator.v
+L0 11
+R8
+r1
+31
+Z46 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/EXAM/elevator.v|
+R10
+!i10b 1
+!s85 0
+Z47 !s108 1749977929.071000
+Z48 !s107 D:/STUDY/HDL/EXAM/elevator.v|
+!s101 -O0
+velevator_tb
+!i10b 1
+Z49 !s100 6F5agEh305GBEd_Gi]`YV1
+Z50 I1Il70]7OW8@A_kSoTD]e=3
+Z51 VcTB>4jUBBLXUF@HM3bYPX2
+R4
+Z52 w1749977044
+Z53 8D:/STUDY/HDL/EXAM/elevator_tb.v
+Z54 FD:/STUDY/HDL/EXAM/elevator_tb.v
+L0 5
+R8
+r1
+!s85 0
+31
+!s108 1749977929.118000
+!s107 D:/STUDY/HDL/EXAM/elevator_tb.v|
+Z55 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/EXAM/elevator_tb.v|
+!s101 -O0
+R10
+vlocker
+Z56 !s100 1R?<N8LTPMU8K0YhGozRZ1
+Z57 IIYGM>FYgf?63a1i>GY36<0
+Z58 V7[T]hD7`59enZlO<gb9W]1
+R4
+Z59 w1749961308
+Z60 8D:/STUDY/HDL/EXAM/locker.v
+Z61 FD:/STUDY/HDL/EXAM/locker.v
+L0 11
+R8
+r1
+31
+Z62 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/EXAM/locker.v|
+R10
+Z63 !s108 1749977928.878000
+Z64 !s107 D:/STUDY/HDL/EXAM/locker.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlocker_fsm
+Z65 I8:J=UJKZhf6L1ZI2V^DjW1
+Z66 V0LQX_TdUJRA4nmj]izA250
+R4
+Z67 w1749960924
+R60
+R61
+L0 11
+R8
+r1
+31
+R62
+R10
+Z68 !s100 ^S:ISiFI;hR=iKYg84k0X2
+Z69 !s108 1749961014.238000
+R64
+!i10b 1
+!s85 0
+!s101 -O0
+vlocker_fsm_tb
+Z70 I<9]2MTXEmK<MkLF`iEzo<3
+Z71 Vn<o46iOfUD=EdP1mhDm4M0
+R4
+Z72 w1749962131
+Z73 8D:\STUDY\HDL\EXAM\locker_tb.v
+Z74 FD:\STUDY\HDL\EXAM\locker_tb.v
+L0 3
+R8
+r1
+31
+Z75 !s90 -reportprogress|300|-work|work|D:\STUDY\HDL\EXAM\locker_tb.v|
+R10
+Z76 !s100 TW9_kl`E2<Q`OG7J<imMb1
+Z77 !s108 1749962141.637000
+Z78 !s107 D:\STUDY\HDL\EXAM\locker_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlocker_tb
+Z79 !s100 P29XbFzBFKciZ]IAeDzCU1
+Z80 InRcd62z>aPoYdOY_JWJH^1
+Z81 VXbjiM_lUhX4CV:oSb0P^a1
+R4
+Z82 w1749965440
+Z83 8D:/STUDY/HDL/EXAM/locker_tb.v
+Z84 FD:/STUDY/HDL/EXAM/locker_tb.v
+L0 3
+R8
+r1
+31
+Z85 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/EXAM/locker_tb.v|
+R10
+Z86 !s108 1749977928.924000
+Z87 !s107 D:/STUDY/HDL/EXAM/locker_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vqueue
+Z88 !s100 ;HHZNa<1dWQoK]o=2Kj[I0
+Z89 IKLRHKhKe04chEnim>657?2
+Z90 VHN^583Y?Wkg1H879NIA?m1
+R4
+Z91 w1749957832
+Z92 8D:/STUDY/HDL/EXAM/queue.v
+Z93 FD:/STUDY/HDL/EXAM/queue.v
+L0 17
+R8
+r1
+31
+Z94 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/EXAM/queue.v|
+R10
+Z95 !s108 1749977928.603000
+Z96 !s107 D:/STUDY/HDL/EXAM/queue.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vqueue_tb
+Z97 !s100 @JU1>PHoJWbDad[<OK;dY1
+Z98 ITiVi]RU@mS=Cf[FL9I@He2
+Z99 V1?dJ^kS@5iF33]Eh0Y@T93
+R4
+Z100 w1749966452
+Z101 8D:/STUDY/HDL/EXAM/queue_tb.v
+Z102 FD:/STUDY/HDL/EXAM/queue_tb.v
+L0 2
+R8
+r1
+31
+Z103 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/EXAM/queue_tb.v|
+R10
+Z104 !s108 1749977928.650000
+Z105 !s107 D:/STUDY/HDL/EXAM/queue_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vstack
+Z106 !s100 iomf0bh<HC6`?H]JDjM>R0
+Z107 IdfcJ5L[nD4jEF>n4i0V1Z1
+Z108 V2@0h[9aT35IR>`a=P51_P0
+R4
+Z109 w1749967043
+Z110 8D:/STUDY/HDL/EXAM/stack.v
+Z111 FD:/STUDY/HDL/EXAM/stack.v
+L0 14
+R8
+r1
+31
+Z112 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/EXAM/stack.v|
+R10
+Z113 !s108 1749977928.785000
+Z114 !s107 D:/STUDY/HDL/EXAM/stack.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vstack_tb
+Z115 !s100 PnkmIAm7nk??BPh>`@dg30
+Z116 I:Hz:?MGc7:ZXP8XX1QBc12
+Z117 VUcT2MGM1WF^M4NBENZaPk2
+R4
+Z118 w1749966686
+Z119 8D:/STUDY/HDL/EXAM/stack_tb.v
+Z120 FD:/STUDY/HDL/EXAM/stack_tb.v
+L0 4
+R8
+r1
+31
+Z121 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/EXAM/stack_tb.v|
+R10
+Z122 !s108 1749977928.831000
+Z123 !s107 D:/STUDY/HDL/EXAM/stack_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_fifo_queue
+Z124 I^Q00WAgnT5FF:Zh5NQcRm0
+Z125 V`9TX1@TPRDGcF5L74``<<3
+R4
+Z126 w1749965365
+R101
+R102
+L0 1
+R8
+r1
+31
+R103
+R10
+Z127 !s100 ;E1NNf^Am38<SThKdRG^X0
+Z128 !s108 1749965390.817000
+R105
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_stack
+Z129 !s100 XMOH70TO4[VPP9kffB0JI2
+Z130 I2;>606AVVNVJEjCMbAhmW0
+Z131 VSnR1@k7o6j8kggJem6Yk^3
+R4
+Z132 w1749966482
+R119
+R120
+L0 4
+R8
+r1
+31
+R121
+R10
+Z133 !s108 1749966524.334000
+R123
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_traffic
+Z134 !s100 A=Gd5lEM9>T3eHW[OmK^?0
+Z135 IFlzOZHO;UeRz3[;EDiRjO1
+Z136 VN0SgHm9k;5J2HhTf0In;E3
+R4
+Z137 w1749958264
+Z138 8D:/STUDY/HDL/EXAM/traffic_light.v
+Z139 FD:/STUDY/HDL/EXAM/traffic_light.v
+Z140 L0 125
+R8
+r1
+31
+Z141 !s108 1749966694.830000
+Z142 !s107 D:/STUDY/HDL/EXAM/traffic_light.v|
+Z143 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/EXAM/traffic_light.v|
+R10
+Z144 !s10a 1749958264
+!i10b 1
+!s85 0
+!s101 -O0
+vtimer
+Z145 !s100 ?GbaBeFF2;M_:1ag;EdCV0
+Z146 I^e5Y`@eJmOTzbKGL=POnO2
+Z147 VoT04>A:F`7O9lb<GdV5<82
+R4
+Z148 w1749977431
+R138
+R139
+L0 18
+R8
+r1
+31
+Z149 !s108 1749977928.971000
+R142
+R143
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vtraffic_light
+Z150 !s100 XJeM;S[;_OlmIi>1=<^AE0
+Z151 Ik:oXdQ0LBh<YmHC06D3mf3
+Z152 Vb`K8K8_R@`KVTXXB``EkM1
+R4
+R148
+R138
+R139
+L0 43
+R8
+r1
+31
+R149
+R142
+R143
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vtraffic_light_tb
+Z153 !s100 be`OQ6;<bdkjRhZTf<27e3
+Z154 IEOAzliWZH@8N34jd]ZYVG3
+Z155 VN4X_9^ER9K^ggc_Mhiif80
+R4
+Z156 w1749977587
+Z157 8D:/STUDY/HDL/EXAM/traffic_light_tb.v
+Z158 FD:/STUDY/HDL/EXAM/traffic_light_tb.v
+L0 5
+R8
+r1
+31
+Z159 !s90 -reportprogress|300|-work|work|D:/STUDY/HDL/EXAM/traffic_light_tb.v|
+R10
+Z160 !s108 1749977929.023000
+Z161 !s107 D:/STUDY/HDL/EXAM/traffic_light_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
